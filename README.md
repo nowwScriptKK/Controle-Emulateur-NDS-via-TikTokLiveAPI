@@ -5,7 +5,7 @@
 
 Ce projet combine deux scripts Python pour offrir une expérience de streaming interactive unique avec TikTokLive tout en contrôlant un émulateur Nintendo DS (DeSmuME) en temps réel. Grâce à cette combinaison, les spectateurs peuvent influencer le gameplay de l'émulateur en envoyant des commentaires, des likes et des cadeaux pendant le stream TikTokLive.
 
-<center><img src="https://github.com/maxxwwim/Controle-d-Emulateur-Nintendo-DS-via-TikTokLive/blob/48d21e4fe689be4917f2f214ed5a5a2f670f1530/1.png" style="text-align: center;" alt="Texte alternatif" width="500" height="880"></center>
+<center><img src="https://raw.githubusercontent.com/nowwScriptKK/Controle-Emulateur-NDS-via-TikTokLiveAPI/refs/heads/main/1.png" style="text-align: center;" alt="Texte alternatif" width="500" height="880"></center>
 
 ## Dépendances
 
@@ -33,11 +33,13 @@ pip install TikTokLive requests pyautogui Flask psutil pynput Keyboard
 
 ## Utilisation
 
+
 1. Configurez les chemins vers l'exécutable de l'émulateur Nintendo DS et le fichier ROM dans le script `py_script.py`.
    
 ```py
 current_directory_rom = os.path.join(current_directory, "desmume", "pokemon.nds")
 ```
+2. Télécharger Meulon emu, mettre le script dans le même dossier que l'émulateur : https://melonds.kuribo64.net/
 
 3. Exécutez les deux scripts `py_script.py` et `tikLive.py` à l'aide de Python 3 dans des terminaux séparés.
 
