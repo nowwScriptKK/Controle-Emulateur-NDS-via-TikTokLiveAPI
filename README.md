@@ -1,4 +1,7 @@
-# Contrôle d'Émulateur Nintendo DS via TikTokLive
+## Projet de 2023, je ne ferais pas de mise à jour dessus.
+## Si vous avez besoin d'outils d'interaction avec Tiktok Live api(Commentaire ou cadeaux) je vous propose un service payant, contacté moi sur discord: Actheglitch
+
+# Contrôle d'Émulateur NDS via TikTokLive API
 
 Ce projet combine deux scripts Python pour offrir une expérience de streaming interactive unique avec TikTokLive tout en contrôlant un émulateur Nintendo DS (DeSmuME) en temps réel. Grâce à cette combinaison, les spectateurs peuvent influencer le gameplay de l'émulateur en envoyant des commentaires, des likes et des cadeaux pendant le stream TikTokLive.
 
