@@ -39,7 +39,7 @@ pip install TikTokLive requests pyautogui Flask psutil pynput Keyboard
 ```py
 current_directory_rom = os.path.join(current_directory, "desmume", "pokemon.nds")
 ```
-2. Télécharger Meulon emu, mettre le script dans le même dossier que l'émulateur : https://melonds.kuribo64.net/
+2. Télécharger desmume, mettre le script dans le même dossier que l'émulateur : [http://desmume.org/](http://desmume.org/)
 
 3. Exécutez les deux scripts `py_script.py` et `tikLive.py` à l'aide de Python 3 dans des terminaux séparés.
 
